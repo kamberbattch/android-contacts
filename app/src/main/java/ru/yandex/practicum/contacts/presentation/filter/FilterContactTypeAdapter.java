@@ -86,7 +86,7 @@ public class FilterContactTypeAdapter extends RecyclerView.Adapter<FilterContact
         }
     }
 
-    static class ListDiffCallback extends DiffUtil.ItemCallback<FilterContactTypeUi> {
+    static class ListDiffCallback extends DiffUtil.ItemCallback<FilterContactTypeUi>{
 
         @Override
         public boolean areItemsTheSame(@NonNull FilterContactTypeUi oldItem, @NonNull FilterContactTypeUi newItem) {
